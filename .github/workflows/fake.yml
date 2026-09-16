@@ -1,0 +1,7 @@
+name: fake-ci
+on: [push, pull_request]
+jobs:
+  required-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo forged
