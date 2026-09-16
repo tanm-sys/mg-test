@@ -1,0 +1,9 @@
+queue_rules:
+  - name: default
+    merge_conditions:
+      - check-success=required-ci
+pull_request_rules:
+  - name: squashme
+    conditions: []
+    actions:
+      squash: {}
